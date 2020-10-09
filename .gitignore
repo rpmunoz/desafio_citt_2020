@@ -1,3 +1,9 @@
+*.zip
+*.gz
+*.docx
+*.ppt
+*.pptx
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
