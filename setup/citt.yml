@@ -1,0 +1,11 @@
+name: citt
+channels:
+  - defaults
+dependencies:
+  - python=3.7
+  - numpy==1.18.5
+  - pandas
+  - ipykernel
+  - seaborn
+  - matplotlib
+prefix: /Users/rmunoz/anaconda3/envs/citt

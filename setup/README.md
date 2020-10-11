@@ -14,9 +14,10 @@ python -m ipykernel install --user --name citt --display-name "DUOC CITT"
 ```
 conda create -n citt python=3.7
 conda activate citt
-conda install -y numpy matplotlib seaborn pandas ipykernel
+conda install -y numpy==1.18.5
+conda install matplotlib seaborn pandas ipykernel
 pip install scikit-learn spacy
-pip install tensorflow
+pip install tensorflow==2.3.1
 pip install azureml-sdk
 pip install azure-storage-blob
 python -m ipykernel install --user --name citt --display-name "DUOC CITT"
@@ -24,6 +25,12 @@ python -m ipykernel install --user --name citt --display-name "DUOC CITT"
 
 3. Exportar el environment recientemente creado
 
+Para incluir todos los requirements y dependencias del OS
 ```
 conda env export > citt_windows.yml
+```
+
+Para incluir solo requirements especificos, use el flag --from-history
+```
+conda env export --from-history > citt.yml
 ```
