@@ -3,6 +3,16 @@
 *.docx
 *.ppt
 *.pptx
+*.tar
+*.zip
+*.tgz
+
+logs
+models
+data/kaggle_pets
+
+*un~
+*~
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
